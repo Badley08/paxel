@@ -1,1 +1,1 @@
-web: python paxel_bot.py
+web: python main.py
