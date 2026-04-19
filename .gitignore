@@ -1,0 +1,30 @@
+# J'ignore ici les fichiers qui ne doivent pas aller sur GitHub
+
+# Environnement Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Données locales de Paxel (propres à chaque machine)
+# Ne pas versionner les données personnelles
+# ~/.local/share/paxel/ est hors du projet, pas besoin de l'ignorer ici
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

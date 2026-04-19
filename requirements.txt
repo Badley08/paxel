@@ -1,0 +1,17 @@
+# Dépendances Python de Paxel
+# Je les installe avec : pip install -r requirements.txt
+
+# Interface CLI (terminal)
+textual>=0.47.0
+
+# Informations système (cross-distro)
+psutil>=5.9.0
+
+# Note : GTK4 et libadwaita ne sont PAS installables via pip.
+# J'ai besoin de les installer via le gestionnaire de paquets de ma distro :
+#
+# Arch Linux :
+#   sudo pacman -S python-gobject gtk4 libadwaita
+#
+# Ubuntu / Linux Mint :
+#   sudo apt install python3-gi gir1.2-gtk-4.0 gir1.2-adw-1
